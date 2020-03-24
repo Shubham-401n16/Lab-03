@@ -1,0 +1,28 @@
+{
+  "name": "Lab-03",
+  "version": "1.0.0",
+  "description": "## Data Modeling & NoSQL Databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubham-401n16/Lab-03.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubham-401n16/Lab-03/issues"
+  },
+  "homepage": "https://github.com/Shubham-401n16/Lab-03#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.9.5"
+  }
+}
