@@ -7,8 +7,6 @@ const notesSchema = mongoose.Schema({
   categoryId: {type: String, required: false}
 });
   
-
-
 const notesModel = mongoose.model('notes',notesSchema);
 
 module.exports = notesModel;

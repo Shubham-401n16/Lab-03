@@ -5,7 +5,7 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 
 //My Dependencies
-const Notes = require('./models/notes-schema.js');
+const Notes = require('./lib/notes.js');
 const Input = require('./lib/input.js')
 
 
