@@ -5,7 +5,7 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 
 //My Dependencies
-const Notes = require('./lib/notes.js');
+const NoteActionHandler = require('./lib/notes.js');
 const Input = require('./lib/input.js')
 
 
@@ -18,4 +18,4 @@ mongoose.connect(process.env.MONGODB_URI || `mongodb://localhost:27017/models`, 
 let entry = process.argv.slice(2);
 
 let userInput = new Input(entry);
-let userNote = new Notes(userInput.command);
+let userNote = new NoteActionHandler(userInput.command);
